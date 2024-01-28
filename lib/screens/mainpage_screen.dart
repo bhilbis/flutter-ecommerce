@@ -9,7 +9,7 @@ class MainPageScreen extends StatelessWidget {
     return Stack(
       children: [
         Container(
-          height: 250,
+          height: 230,
           decoration: const BoxDecoration(
             image: DecorationImage(
               fit: BoxFit.cover,
@@ -20,7 +20,7 @@ class MainPageScreen extends StatelessWidget {
         ),
 
         Padding(
-          padding: EdgeInsets.only(top: 60, left: 15),
+          padding: EdgeInsets.only(top: 45, left: 15),
           child: Container(
             child: Row(
               children: [
@@ -83,7 +83,7 @@ class MainPageScreen extends StatelessWidget {
 
         Center(
           child: Padding(
-            padding: const EdgeInsets.only(top: 165.0,),
+            padding: const EdgeInsets.only(top: 150.0,),
             child: Container(
               height: 50,
               width: 350,
