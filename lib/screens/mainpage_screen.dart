@@ -20,7 +20,7 @@ class MainPageScreen extends StatelessWidget {
         ),
 
         Padding(
-          padding: EdgeInsets.only(top: 45, left: 15),
+          padding: EdgeInsets.only(top: 50, left: 15),
           child: Container(
             child: Row(
               children: [
@@ -105,9 +105,9 @@ class MainPageScreen extends StatelessWidget {
                   SizedBox(
                     width: 15,
                   ),                  
-                  Text('Search for Products', 
+                  Text('Search for Food', 
                     style: TextStyle(
-                      fontSize: 16,
+                      fontSize: 18,
                       fontWeight: FontWeight.bold,
                       color: Colors.grey
                     ),

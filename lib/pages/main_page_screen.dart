@@ -24,7 +24,7 @@ class MainPage extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: const [
-                Text('Product Category', style: TextStyle(
+                Text('Category', style: TextStyle(
                   fontFamily: ('Font'),
                   fontSize: 18
                 ),),
@@ -64,15 +64,53 @@ class MainPage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.orange
                     ),),
-                Icon(Icons.south_sharp, size: 20, color: Colors.orange,)
+                Icon(Icons.arrow_drop_down_rounded, size: 20, color: Colors.orange,)
               ],
             )
               ],
             ),
           ),
-
+          
+          SizedBox(
+            height: 20,
+          ),
           Products(),
         ]
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.black,
+        onPressed: (){},
+        child: Icon(Icons.card_travel_rounded, color: Colors.white,),
+      ),
+
+      bottomNavigationBar: BottomAppBar(
+        height: 60,
+        color: Colors.white,
+        child: Padding(
+          padding: const EdgeInsets.only(left: 18.0, right: 18),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Image(
+                height: 35,
+                image: AssetImage(
+                  'assets/images/home.png'),
+              ),
+              Icon(Icons.account_circle, size: 38,),
+              Image(
+                height: 35,
+                image: AssetImage(
+                  'assets/icons/2488749.png'),
+              ),
+              Image(
+                height: 35,
+                image: AssetImage(
+                  'assets/icons/3364202.png'),
+              ),
+            ],
+          ),
+        ),
       ),
     );
   }

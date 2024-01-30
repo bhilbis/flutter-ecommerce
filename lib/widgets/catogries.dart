@@ -19,10 +19,10 @@ class Catogries extends StatelessWidget {
                     color: Colors.grey.shade300
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Container(
                       child: Image(
-                        height: 35,
+                        height: 40,
                         image: AssetImage('assets/icons/burger.png'),
                       ),
                     ),
@@ -41,17 +41,17 @@ class Catogries extends StatelessWidget {
           Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 18.0, left: 18),
+                padding: const EdgeInsets.only(top: 18.0, left: 20),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(80),
                     color: Colors.grey.shade300
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Container(
                       child: Image(
-                        height: 35,
+                        height: 40,
                         image: AssetImage('assets/icons/ramen.png'),
                       ),
                     ),
@@ -62,7 +62,7 @@ class Catogries extends StatelessWidget {
                 height: 5,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 18.0),
+                padding: const EdgeInsets.only(left: 20.0),
                 child: Text('Ramen'),
               )
             ],
@@ -70,17 +70,17 @@ class Catogries extends StatelessWidget {
           Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 18.0, left: 18),
+                padding: const EdgeInsets.only(top: 18.0, left: 20),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(80),
                     color: Colors.grey.shade300
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Container(
                       child: Image(
-                        height: 35,
+                        height: 40,
                         image: AssetImage('assets/icons/salad.png'),
                       ),
                     ),
@@ -91,7 +91,7 @@ class Catogries extends StatelessWidget {
                 height: 5,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 18.0),
+                padding: const EdgeInsets.only(left: 20.0),
                 child: Text('Salad'),
               )
             ],
@@ -99,17 +99,17 @@ class Catogries extends StatelessWidget {
           Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 18.0, left: 18),
+                padding: const EdgeInsets.only(top: 18.0, left: 20),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(80),
                     color: Colors.grey.shade300
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Container(
                       child: Image(
-                        height: 35,
+                        height: 40,
                         image: AssetImage('assets/icons/cake.png'),
                       ),
                     ),
@@ -120,7 +120,7 @@ class Catogries extends StatelessWidget {
                 height: 5,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 18.0),
+                padding: const EdgeInsets.only(left: 20.0),
                 child: Text('Cake'),
               )
             ],
@@ -128,17 +128,17 @@ class Catogries extends StatelessWidget {
           Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 18.0, left: 18, right: 18),
+                padding: const EdgeInsets.only(top: 18.0, left: 20, right: 18),
                 child: Container(
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(80),
                     color: Colors.grey.shade300
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.all(18.0),
+                    padding: const EdgeInsets.all(20.0),
                     child: Container(
                       child: Image(
-                        height: 35,
+                        height: 40,
                         image: AssetImage('assets/icons/biryani.png'),
                       ),
                     ),
@@ -149,7 +149,7 @@ class Catogries extends StatelessWidget {
                 height: 5,
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 18.0, right: 18),
+                padding: const EdgeInsets.only(left: 20.0, right: 18),
                 child: Text('Biryani'),
               )
             ],
