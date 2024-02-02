@@ -97,7 +97,9 @@ class MainPage extends StatelessWidget {
                 image: AssetImage(
                   'assets/images/home.png'),
               ),
+
               Icon(Icons.account_circle, size: 38,),
+              
               Image(
                 height: 35,
                 image: AssetImage(
