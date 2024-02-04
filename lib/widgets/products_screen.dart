@@ -13,8 +13,8 @@ class Products extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 20.0, bottom: 5),
             child: Container(
-              height: 310,
-              width: 220,
+              height: 330,
+              width: 240,
               decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -38,8 +38,8 @@ class Products extends StatelessWidget {
                   children: [
                     Container(
                       child: Image(
-                        height: 165,
-                        width: 220,
+                        height: 180,
+                        width: 240,
                         image: AssetImage('assets/images/mainfood.png'),
                       ),
                     ),
@@ -51,7 +51,7 @@ class Products extends StatelessWidget {
                       ),
                     ),
                     SizedBox(
-                      height: 8,
+                      height: 10,
                     ),
                     Padding(
                       padding: const EdgeInsets.only(left: 6.0),
@@ -86,7 +86,7 @@ class Products extends StatelessWidget {
                         ),
                         Padding(
                           padding: const EdgeInsets.only(
-                               top: 11, bottom: 5),
+                               top: 11, bottom: 5, right: 15),
                           child: FloatingActionButton(
                             backgroundColor: Colors.orange,
                             child: Icon(
@@ -107,8 +107,8 @@ class Products extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 20.0, bottom: 5),
             child: Container(
-              height: 300,
-              width: 214,
+              height: 330,
+              width: 240,
               decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -124,7 +124,7 @@ class Products extends StatelessWidget {
               child: Column(
                 children: [
                   Image(
-                    height: 150,
+                    height: 180,
                     image: AssetImage('assets/images/image1.png'),
                   ),
                   Text(
@@ -170,7 +170,7 @@ class Products extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(
-                            right: 10, top: 11, bottom: 5),
+                            right: 15, top: 11, bottom: 5),
                         child: FloatingActionButton(
                           backgroundColor: Colors.orange,
                           child: Icon(
@@ -189,8 +189,8 @@ class Products extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(left: 20.0, right: 18, bottom: 5),
             child: Container(
-              height: 300,
-              width: 214,
+              height: 330,
+              width: 240,
               decoration: BoxDecoration(
                   color: Colors.white,
                   boxShadow: [
@@ -206,7 +206,7 @@ class Products extends StatelessWidget {
               child: Column(
                 children: [
                   Image(
-                    height: 150,
+                    height: 180,
                     image: AssetImage('assets/images/image2.png'),
                   ),
                   Text(
@@ -252,7 +252,7 @@ class Products extends StatelessWidget {
                       ),
                       Padding(
                         padding: const EdgeInsets.only(
-                            right: 10, top: 11, bottom: 5),
+                            right: 15, top: 11, bottom: 5),
                         child: FloatingActionButton(
                           backgroundColor: Colors.orange,
                           child: Icon(
