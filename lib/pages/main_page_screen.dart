@@ -73,7 +73,7 @@ class MainPage extends StatelessWidget {
           SizedBox(
             height: 20,
           ),
-          Products(),
+           Products(),
         ]
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
