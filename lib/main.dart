@@ -1,6 +1,6 @@
+import 'package:ecommerceproject/pages/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:ecommerceproject/pages/main_page_screen.dart';
 
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      home: const MainPage(),
+      home: const LoginPage(),
     );
   }
 }

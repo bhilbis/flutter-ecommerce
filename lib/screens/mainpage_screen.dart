@@ -101,25 +101,40 @@ class MainPageScreen extends StatelessWidget {
                       width: 22,
                       image: AssetImage('assets/icons/search-interface-symbol.png')),
                   ),
+                  Expanded(
+                    child:Padding(
+                      padding: const EdgeInsets.symmetric(horizontal: 5.0),
+                      child: TextField(
+                        decoration: InputDecoration(
+                          hintText: 'Search...',
+                          border:InputBorder.none
+                        ),
+                      ),
+                    ),
+                  ),
 
                   SizedBox(
                     width: 15,
                   ),                  
-                  Text('Search for Food', 
-                    style: TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.grey
-                    ),
-                  ),
+                  // Text('Search for Food', 
+                  //   style: TextStyle(
+                  //     fontSize: 18,
+                  //     fontWeight: FontWeight.bold,
+                  //     color: Colors.grey
+                  //   ),
+                  // ),
                   
                   SizedBox(
                     width: 100,
                   ),
-                  Image(
-                    height: 30,
-                    width: 30,
-                    image: AssetImage('assets/icons/filter.png')),
+
+                  Padding(
+                    padding: EdgeInsets.only(right: 15.0),
+                    child: Image(
+                      height: 30,
+                      width: 30,
+                      image: AssetImage('assets/icons/filter.png')),
+                  ),
                 ],
               ),
             ),
